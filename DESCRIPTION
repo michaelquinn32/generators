@@ -1,0 +1,21 @@
+Package: generators
+Type: Package
+Title: Generators: A grammar of iterators
+Version: 0.1.0
+Authors@R: person("Michael", "Quinn", , "msquinn2@illinois.edu", c("aut", "cre")
+Description: Iterators are a type of object that contains an internal state.
+    When used correctly, iterators offer an efficient solution to many computational
+    problems. This package provides a grammar for working with these tools.
+License: GPL-3
+Url: https://github.com/michaelquinn32/generators
+BugReports: https://github.com/michaelquinn32/generators/issues
+LazyData: TRUE
+LinkingTo: Rcpp
+Depends:
+    R(>= 3.2.4)
+Imports:
+    Rcpp
+Suggests:
+    magrittr,
+    testthat
+RoxygenNote: 5.0.1
